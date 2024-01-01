@@ -1,0 +1,136 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color:indigo;
+
+}
+.entry{
+    background-image: url(https://img.freepik.com/free-vector/abstract-banner-with-world-map_1048-12232.jpg?size=626&ext=jpg);
+    background-size:cover;
+    width:600px;
+    height:400px;
+    margin-left:200px;
+    margin-top:20px;
+    outline: 10px inset indigo;
+    border-radius: 30px 30px 30px 30px;
+    overflow: hidden;
+}
+
+.intro{
+    background-image: url(https://img.freepik.com/free-vector/abstract-banner-with-world-map_1048-12232.jpg?size=626&ext=jpg);
+    background-size:cover;
+    width:600px;
+    height:400px;
+    margin-top:0px;
+    text-align: center;
+    outline: 10px inset indigo;
+    border-radius: 30px 30px 30px 30px;
+}
+h1{
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    color:white;
+    padding-top:20px;
+}
+h2{
+    font-size: 20px;
+    margin-top:75px;
+    font-family: 'Times New Roman', Times, serif;
+    color:white;
+}
+h3{
+    font-size: 20px;
+    margin-top:70px;
+    font-family: 'Times New Roman', Times, serif;
+    color:white;
+}
+button{
+    font-size: 20px;
+    color:white;
+    background-color:indigo;
+    margin-top:60px;
+    width:80px;
+    height:30px;
+    margin-left:50px;
+    cursor:pointer;
+    outline: 2px groove white;
+    border-radius: 50px;
+}
+h4{
+    color:white;
+    margin-left:20px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+h5{
+    color:white;
+    margin-left:20px;
+    font-size: 20px;
+    margin-top: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+label{
+    color:antiquewhite;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+input{
+    margin-left: 50px;
+    margin-top: 30px;
+}
+input[type="radio"]{
+    color:black;
+    height:10px;
+    width:10px;
+    background-color:white;
+    line-height: 100px;
+
+}
+button:hover{
+    background-color: aliceblue;
+    color:black;
+}
+hr{
+    background-color: aliceblue;
+    height:2px;
+    width:80px;
+    margin-left:20px;
+}
+h6{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color:aliceblue;
+    margin-left:260px;
+    padding-top:100px;
+    animation-name: animation;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes animation {
+    0%{color:chartreuse;}
+    20%{color:aqua;}
+    50%{color:yellow;}
+    100%{color:red;}
+    
+}
+#xx{
+    color:white;
+    font-size: 50px;
+    padding-left:280px;
+    padding-top:160px;
+    font-family: 'Times New Roman', Times, serif;
+}
+ .button{
+    margin-left:250px;
+    margin-top:-40px;
+ }
+ #u{
+    font-size: 15px;
+    margin-left: 250px;
+    margin-top:70px;
+ }
+ 
