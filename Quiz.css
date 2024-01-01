@@ -9,8 +9,8 @@ body{
 .entry{
     background-image: url(https://img.freepik.com/free-vector/abstract-banner-with-world-map_1048-12232.jpg?size=626&ext=jpg);
     background-size:cover;
-    width:1000px;
-    height:600px;
+    width:600px;
+    height:400px;
     margin-left:200px;
     margin-top:20px;
     outline: 10px inset indigo;
@@ -21,39 +21,39 @@ body{
 .intro{
     background-image: url(https://img.freepik.com/free-vector/abstract-banner-with-world-map_1048-12232.jpg?size=626&ext=jpg);
     background-size:cover;
-    width:1000px;
-    height:600px;
+    width:600px;
+    height:400px;
     margin-top:0px;
     text-align: center;
     outline: 10px inset indigo;
     border-radius: 30px 30px 30px 30px;
 }
 h1{
-    font-size: 50px;
+    font-size: 30px;
     font-family:'Times New Roman', Times, serif;
     color:white;
     padding-top:20px;
 }
 h2{
-    font-size: 30px;
+    font-size: 20px;
     margin-top:75px;
     font-family: 'Times New Roman', Times, serif;
     color:white;
 }
 h3{
-    font-size: 25px;
+    font-size: 20px;
     margin-top:70px;
     font-family: 'Times New Roman', Times, serif;
     color:white;
 }
 button{
-    font-size: 30px;
+    font-size: 20px;
     color:white;
     background-color:indigo;
-    margin-top:100px;
-    width:150px;
-    height:50px;
-    margin-left:700px;
+    margin-top:60px;
+    width:80px;
+    height:30px;
+    margin-left:50px;
     cursor:pointer;
     outline: 2px groove white;
     border-radius: 50px;
@@ -61,20 +61,20 @@ button{
 h4{
     color:white;
     margin-left:20px;
-    font-size: 40px;
+    font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
     
 }
 h5{
     color:white;
     margin-left:20px;
-    font-size: 30px;
+    font-size: 20px;
     margin-top: 50px;
     font-family: 'Times New Roman', Times, serif;
 }
 label{
     color:antiquewhite;
-    font-size: 20px;
+    font-size: 15px;
     font-family: 'Times New Roman', Times, serif;
 }
 input{
@@ -83,8 +83,8 @@ input{
 }
 input[type="radio"]{
     color:black;
-    height:20px;
-    width:20px;
+    height:10px;
+    width:10px;
     background-color:white;
     line-height: 100px;
 
@@ -96,11 +96,11 @@ button:hover{
 hr{
     background-color: aliceblue;
     height:2px;
-    width:160px;
-    margin-left:22px;
+    width:80px;
+    margin-left:20px;
 }
 h6{
-    font-size: 50px;
+    font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
     color:aliceblue;
     margin-left:260px;
@@ -124,3 +124,13 @@ h6{
     padding-top:160px;
     font-family: 'Times New Roman', Times, serif;
 }
+ .button{
+    margin-left:250px;
+    margin-top:-40px;
+ }
+ #u{
+    font-size: 15px;
+    margin-left: 250px;
+    margin-top:70px;
+ }
+ 
